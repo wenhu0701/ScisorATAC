@@ -4,7 +4,7 @@
 #v1.1a_exonInclusion_CTspecific_case_control.sh
 Compares exon inclusion and exclusion between 2 groups
 
-parameter settings:
+#parameter settings:
 # numThreads: number of threads to be used.
 # min_reads: minimum number of reads for sum of 2 allInfos for a given exon. 
 # OL_fraction: the fraction of the reads for a given position must be either inclusion or exclusion.
