@@ -1,4 +1,4 @@
-# ScisorATAC (alternative splicing analysis per cell state which is defined by multivelo output)
+# Alternative splicing analysis per cell state which is defined by multivelo output
 
 
 #v1.1a_exonInclusion_CTspecific_case_control.sh
