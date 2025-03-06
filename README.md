@@ -1,4 +1,4 @@
-# ScisorATAC
+# ScisorATAC (differentail splicing analysis by Cell States)
 
 
 #v1.1a_exonInclusion_CTspecific_case_control.sh
