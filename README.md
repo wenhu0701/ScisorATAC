@@ -1,5 +1,20 @@
-# Alternative splicing analysis per cell state defined by multivelo output
+# Multivelo notebooks for 3 comparisons
+# region comparison
+Macaque_2PFC_dPSI_RegionComparison_genes_ForGithub.ipynb
+Macaque_2VIS_dPSI__RegionComparison_genes-ForGithub.ipynb
 
+# species comparison
+Macaque_2PFC_dPSI_SpeciesComparison-ForGithub.ipynb
+Multivelo_6Controls_SpeciesComparison_dPSI_tested_genes_broad_celltypes-ForGithub.ipynb
+
+# AD vs Control
+Multivelo_10Controls_dPSI_tested_genes_broad_celltypes-forGithub.ipynb
+Multivelo_9Cases_dPSI_tested_genes_broad_celltypes-ForGithub.ipynb
+
+
+
+############################################################################
+# Alternative splicing analysis per cell state defined by multivelo output
 
 #v1.1a_exonInclusion_CTspecific_case_control.sh
 #####################
