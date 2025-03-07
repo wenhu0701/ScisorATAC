@@ -11,7 +11,11 @@ Multivelo_6Controls_SpeciesComparison_dPSI_tested_genes_broad_celltypes-ForGithu
 Multivelo_10Controls_dPSI_tested_genes_broad_celltypes-forGithub.ipynb
 Multivelo_9Cases_dPSI_tested_genes_broad_celltypes-ForGithub.ipynb
 
-
+#############################################################################
+# we use the log-odds-ratio (abbreviated as LOR) to quantify the difference in inclusion between both states.
+LOR_ADvsControl_withinHuman_altWorkflow.R
+LOR_regionComparison_withinMacaque_altWorkflow
+LOR_speciesComp_altWorkflow.R
 
 ############################################################################
 # Alternative splicing analysis per cell state defined by multivelo output
@@ -30,6 +34,9 @@ c) calculate the PSI (percentage spliced in) value per condition per cell state 
 #######################
 a) calculate the state dPSI between conditions  if applicable
 b) subset the exons which have been tested significant with an overall dPSI (across all cell states)
+
+
+
 c) normalize the state dPSI  by overall dPSI (across all cell states)
 d) find the maximum normalized state dPSI 
 e) make a density plot of the maximum normalized state dPSI of each tested exon
