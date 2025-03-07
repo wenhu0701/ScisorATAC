@@ -26,7 +26,7 @@ Compares exon inclusion and exclusion between 2 groups
 
 #From_AllInfo_to_PSIvaluePerConditionPerState.sh
 ####################
-a) Split the allinfo file of each condition by cell state information provided by Multivelo output
+a) Split the allinfo file of each condition by cell state information provided by Multivelo output (Cell State Matrix)
 b) Perform differential splicing analysis between two conditions per cell state by calling the script 'v1.1a_exonInclusion_CTspecific_case_control.sh'
 c) calculate the PSI (percentage spliced in) value per condition per cell state for all the exons
 
