@@ -1,6 +1,6 @@
 
 ###############################################################
-###### Cell state specific alternative splicing analysis ######
+Cell state specific alternative splicing analysis
 
 #LOR stands for “log odds ratio”, which is used for quantifying the strength of the association between two events, splicing and cell state. For an exon of a specific cell type, we calculate a p-value and correct for multiple testing. For a significant exon, we then use the log-odds-ratio (abbreviated as LOR) to quantify the difference in inclusion between both states.
 #############################################################################
