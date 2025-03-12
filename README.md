@@ -1,16 +1,6 @@
-# Multivelo notebooks for 3 comparisons
-# region comparison
-Macaque_2PFC_dPSI_RegionComparison_genes_ForGithub.ipynb
-Macaque_2VIS_dPSI__RegionComparison_genes-ForGithub.ipynb
+###### Cell state specific alternative splicing analysis ######
 
-# species comparison
-Macaque_2PFC_dPSI_SpeciesComparison-ForGithub.ipynb
-Multivelo_6Controls_SpeciesComparison_dPSI_tested_genes_broad_celltypes-ForGithub.ipynb
-
-# AD vs Control
-Multivelo_10Controls_dPSI_tested_genes_broad_celltypes-forGithub.ipynb
-Multivelo_9Cases_dPSI_tested_genes_broad_celltypes-ForGithub.ipynb
-
+#LOR stands for “log odds ratio”, which is used for quantifying the strength of the association between two events, splicing and cell state. For an exon of a specific cell type, we calculate a p-value and correct for multiple testing. For a significant exon, we then use the log-odds-ratio (abbreviated as LOR) to quantify the difference in inclusion between both states. ![image](https://github.com/user-attachments/assets/0731a959-9a66-40b0-b164-13d83b22c5e5)
 #############################################################################
 # we use the log-odds-ratio (abbreviated as LOR) to quantify the difference in inclusion between both states.
 LOR_ADvsControl_withinHuman_altWorkflow.R
@@ -34,11 +24,21 @@ c) calculate the PSI (percentage spliced in) value per condition per cell state 
 #######################
 a) calculate the state dPSI between conditions  if applicable
 b) subset the exons which have been tested significant with an overall dPSI (across all cell states)
-
-
-
 c) normalize the state dPSI  by overall dPSI (across all cell states)
 d) find the maximum normalized state dPSI 
 e) make a density plot of the maximum normalized state dPSI of each tested exon
 
+###############################################
+# Multivelo notebooks for 3 comparisons
+# region comparison
+Macaque_2PFC_dPSI_RegionComparison_genes_ForGithub.ipynb
+Macaque_2VIS_dPSI__RegionComparison_genes-ForGithub.ipynb
+
+# species comparison
+Macaque_2PFC_dPSI_SpeciesComparison-ForGithub.ipynb
+Multivelo_6Controls_SpeciesComparison_dPSI_tested_genes_broad_celltypes-ForGithub.ipynb
+
+# AD vs Control
+Multivelo_10Controls_dPSI_tested_genes_broad_celltypes-forGithub.ipynb
+Multivelo_9Cases_dPSI_tested_genes_broad_celltypes-ForGithub.ipynb
 
